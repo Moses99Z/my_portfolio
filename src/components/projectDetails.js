@@ -21,7 +21,7 @@ const ProjectDetails = () => {
   return (
     <div className="page container mt-2 ">
       <div
-        className="row border shadow-sm project-det d-flex align-items-center"
+        className="row border shadow-sm project-det d-flex align-items-center mx-1"
         style={{ marginBottom: "150px" }}
       >
         <div className="col-sm-6 col-12 p-5">
@@ -33,7 +33,7 @@ const ProjectDetails = () => {
             <FontAwesomeIcon icon={faGithub} /> GitHub
           </a>
         </div>
-        <div className="col-sm-6 col-12 p-5">
+        <div className="col-sm-6 col-12 p-4">
           {project.imagesDetails.map((image, index) => {
             return (
               <img key={index} className="imgdetail" src={image} alt={"img"} />

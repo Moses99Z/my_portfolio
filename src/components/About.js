@@ -22,8 +22,8 @@ import Footer from "./footer";
 const About = () => {
   return (
     <div className="page">
-      <div className="container mt-2 ">
-        <div className="row border shadow-sm mb-5 about">
+      <div className="container ">
+        <div className="row border shadow-sm mb-5 about mx-1">
           <h2 className="fw-bold text-center pt-4">About Me</h2>
           <div className="col-lg-3 col-12 pb-4 text-center">
             <img
@@ -41,19 +41,19 @@ const About = () => {
               love the logic and structure of coding and always strive to write
               elegant and efficient code.
             </p>
-            <a className="btn btn-dark" href="https://github.com/Moses99Z">
+            <a className="btn btn-dark mb-4" href="https://github.com/Moses99Z">
               <FontAwesomeIcon icon={faGithub} /> GitHub
             </a>
             &nbsp;&nbsp;&nbsp;
             <a
-              className="btn btn-primary"
+              className="btn btn-primary mb-4"
               href="https://www.linkedin.com/in/moussazouiti/"
             >
               <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
             </a>
           </div>
         </div>
-        <div className="row shadow-sm text-center mb-5 about-tech">
+        <div className="row shadow-sm text-center mb-5 about-tech mx-1">
           <div className="col-sm-6 col-12 pt-5 pb-3 border border-1">
             <h2 className="fw-bold">Web Development</h2>
             <FontAwesomeIcon className="fs-2 mt-3" icon={faCode} />
@@ -86,7 +86,7 @@ const About = () => {
             />
             <br />
           </div>
-          <div className="col-sm-6 col-12 pt-5 border border-1">
+          <div className="col-sm-6 col-12 pt-5 border border-1 pb-2">
             <h2 className="fw-bold">Mobile Development</h2>
             <FontAwesomeIcon className="fs-2 m-3" icon={faMobileAlt} />
             <p className=" fs-4 text-primary mt-3">Technologies I know :</p>
