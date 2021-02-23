@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <div className="page">
       <div className="container mt-2 mb-5">
-        <div className="row">
+        <div className="row" style={{ marginBottom: "400px" }}>
           {projects.map((project) => {
             return <Project key={"Project " + project.id} project={project} />;
           })}

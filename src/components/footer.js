@@ -8,7 +8,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="footer mt-5 text-center text-lg-start">
+    <footer className="footer text-center text-lg-start">
       <div className="text-center pt-3 fw-bold fs-3">
         <a
           href="https://www.linkedin.com/in/moussazouiti/"

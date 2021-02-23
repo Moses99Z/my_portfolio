@@ -1,5 +1,6 @@
 import React from "react";
 import kotlin from "../images/kotlin.png";
+import Footer from "../components/footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faAndroid,
@@ -19,7 +20,10 @@ const ProjectDetails = () => {
 
   return (
     <div className="page container mt-2 ">
-      <div className="row border shadow-sm mb-5 project-det d-flex align-items-center">
+      <div
+        className="row border shadow-sm project-det d-flex align-items-center"
+        style={{ marginBottom: "150px" }}
+      >
         <div className="col-sm-6 col-12 p-5">
           <h2 className="fw-bold">{project.name}</h2>
           {projectType(project)}
@@ -37,6 +41,7 @@ const ProjectDetails = () => {
           })}
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

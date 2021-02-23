@@ -7,7 +7,10 @@ import Footer from "./footer";
 const Home = () => {
   return (
     <div className="page">
-      <div className="container container-home mt-2 border shadow-sm">
+      <div
+        className="container container-home mt-2 border shadow-sm"
+        style={{ marginBottom: "400px" }}
+      >
         <div className="p-5  text-dark ">
           <h1 className="display-5">
             Hi, I'm Zouiti Moussa a Web / Mobile apps developer
