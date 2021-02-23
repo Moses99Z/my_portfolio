@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+.card-img-top {
+  height: 220px;
+  width: 350px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  background-color: rgb(236, 231, 226);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a {
+  transition: 1s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    1s box-shadow, 1s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
 }
 
-.App-link {
-  color: #61dafb;
+a:hover {
+  transform: scale(1.03);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.imgdetail {
+  height: 220px;
+  margin: 20px;
+}
+
+nav {
+  font-family: "Alegreya SC", serif;
+  background-color: rgb(243, 241, 239);
+  margin-left: 10px;
+}
+
+.container-home {
+  background-color: rgb(236, 231, 226);
+}
+
+.about {
+  background-color: rgb(236, 231, 226);
+}
+
+.about-tech {
+  background-color: rgb(236, 231, 226);
+}
+
+.project-det {
+  background-color: rgb(236, 231, 226);
+}
+
+footer {
+  background-color: rgb(243, 241, 239);
+}
+
+.page {
+  position: absolute;
+  top: 130px;
+  left: 0;
+  right: 0;
+}
+
+.fade-appear,
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms linear 150ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 150ms linear;
 }
