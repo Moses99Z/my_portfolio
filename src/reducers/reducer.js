@@ -1,13 +1,17 @@
-import virtualImg from "../images/project 1.PNG";
-import recipeImg from "../images/project 2.PNG";
-import img1 from "../images/vb (1).png";
-import img2 from "../images/vb (2).png";
-import img3 from "../images/vb (3).png";
-import img4 from "../images/vb (4).png";
-import imgr1 from "../images/rm (1).png";
-import imgr2 from "../images/rm (2).png";
-import imgr3 from "../images/rm (3).png";
-import imgr4 from "../images/rm (4).png";
+import virtualImg from "../images/vb/project 1.PNG";
+import recipeImg from "../images/rm/project 2.PNG";
+import portfolioImg from "../images/pf/portfolio_main.png";
+import imgp1 from "../images/pf/pf1.png";
+import imgp2 from "../images/pf/pf2.PNG";
+import imgp3 from "../images/pf/pf3.png";
+import img1 from "../images/vb/vb (1).png";
+import img2 from "../images/vb/vb (2).png";
+import img3 from "../images/vb/vb (3).png";
+import img4 from "../images/vb/vb (4).png";
+import imgr1 from "../images/rm/rm (1).png";
+import imgr2 from "../images/rm/rm (2).png";
+import imgr3 from "../images/rm/rm (3).png";
+import imgr4 from "../images/rm/rm (4).png";
 
 const initialData = {
   projects: [
@@ -34,6 +38,18 @@ const initialData = {
       details:
         "This Recipes Manager app makes it easy to manage all cooking recipes and do different kind of tasks like adding , editing and also deleting recipes whenever you want, and also check all details of a recipe with just a simple click. This app was created using only Java with the MVVM architecture and Room persistence library with some Material design.",
       githubLink: "https://github.com/Moses99Z/Recipes-Manager",
+    },
+    {
+      id: 3,
+      name: "MY PORTFOLIO",
+      description: "This is my portfolio",
+      image: portfolioImg,
+      type: "react",
+      language: "react",
+      imagesDetails: [imgp1],
+      details:
+        "This is my projects portfolio that i created using React Js , Redux and also bootstrap.",
+      githubLink: "https://github.com/Moses99Z/my_portfolio",
     },
   ],
 };

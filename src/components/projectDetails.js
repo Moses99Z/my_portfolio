@@ -22,7 +22,7 @@ const ProjectDetails = () => {
     <div className="page container mt-2 ">
       <div
         className="row border shadow-sm project-det d-flex align-items-center mx-1"
-        style={{ marginBottom: "150px" }}
+        style={{ marginBottom: "20px" }}
       >
         <div className="col-sm-6 col-12 p-5">
           <h2 className="fw-bold">{project.name}</h2>
